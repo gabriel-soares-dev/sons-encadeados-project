@@ -20,6 +20,7 @@
     "gulp-typescript": "^6.0.0-alpha.1",
     "mongoose": "^5.13.22",
     "nodemon": "^3.1.4",
-    "typescript": "^2.0.6"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }
