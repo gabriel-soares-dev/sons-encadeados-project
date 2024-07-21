@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SharedModule } from '../app/shared/shared.module';
+import { SharedModule } from '../shared/shared.module';
 
 @Component({
   selector: 'sons-home',
