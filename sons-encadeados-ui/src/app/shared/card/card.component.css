@@ -6,3 +6,8 @@ i.bi{
 button.btn {
     margin-left: 2px;
 }
+
+.card-header.d-flex.justify-content-between.align-items-center {
+    padding-left: 1px;
+    padding-right: 2px;
+}
