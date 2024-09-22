@@ -8,8 +8,12 @@
     "start": "nodemon ./dist/server.js",
     "prod": "npm run build && npm run start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "music",
+    "jukebox",
+    "api"
+  ],
+  "author": "Gabriel Soares",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -18,9 +22,12 @@
     "express": "^4.19.2",
     "gulp": "^5.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "mongoose": "^5.13.22",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
   }
 }

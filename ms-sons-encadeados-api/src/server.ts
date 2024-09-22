@@ -1,6 +1,11 @@
 import app from "./app";
-const PORT = 3000;
+import * as http from 'http';
+import config from './config/config';
 
-app.listen(PORT, () => {
-   console.log('Express server listening on port ' + PORT);
-})
+http
+   .createServer(app)
+   .listen(config.server.port, () => 
+      console.log(
+         `Server is running ${config.server.hostname}:${config.server.port}`
+       )
+   );
