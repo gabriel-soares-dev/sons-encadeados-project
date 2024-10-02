@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as bodyParser from "body-parser";
-import { Route } from "./routes/route";
+import { Route } from "./com/sonsencadeados/presentation/routes/route";
 
 class App {
 
@@ -9,8 +9,8 @@ class App {
 
    constructor() {
        this.app = express();
-       this.routes.routes(this.app);
        this.config();
+       this.routes.routes(this.app);
    }
 
    private config(): void {
